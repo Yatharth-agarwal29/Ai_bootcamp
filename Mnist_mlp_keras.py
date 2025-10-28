@@ -37,7 +37,7 @@ model.add(Flatten(input_shape =(28,28)))
 model.add(Dense(128,'relu'))  #layer containg 128 neuron 
 model.add(Dense(10,'softmax'))       #10 neurons last layer
 
-#compile
+#compilep
 model.compile(optimizer='adam',loss='categorical_crossentropy',metrics=['accuracy'])
 
 #Train
